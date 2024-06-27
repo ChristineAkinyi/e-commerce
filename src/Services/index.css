@@ -1,0 +1,60 @@
+.midfooter{
+    display: flex;
+    margin-left: 100px;
+}
+
+.payment{
+    width: 130%;
+    position: relative;
+    top: 0;
+    right: 0;
+   margin-bottom: -100px;
+    
+    /* margin-bottom: 20px; */
+
+}
+
+.support{
+    width: 60%;
+    margin-top: 150px;
+
+}
+
+.return{
+    width: 50%;
+    margin-top: 150px;
+}
+
+.lorry{
+    width: 60%;
+    margin-top: 130px;
+}
+
+.categries{
+    text-align: center;
+}
+
+/* .container {
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+  } */
