@@ -1,6 +1,6 @@
 import './index.css';
 import {FaHeart, FaSearch, FaShoppingBag, FaUser} from 'react-icons/fa';
-import Model from '../Images/model.jpg';
+
 
 
 
@@ -20,7 +20,7 @@ function Navbar(){
                 </nav>
                 
 
-                <div>
+                <div id='icons'> 
                 <FaSearch/>
                 <FaUser/>
                 <FaHeart/>

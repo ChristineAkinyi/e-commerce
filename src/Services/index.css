@@ -1,24 +1,32 @@
 .midfooter{
     display: flex;
     margin-left: 100px;
+    margin-bottom: 30px;
 }
 
 .payment{
     width: 130%;
-    position: relative;
-    top: 0;
-    right: 0;
-   margin-bottom: -100px;
+    /* position: relative; */
+    /* top: 0; */
+    /* right: 0; */
+   margin-top: -40px;
     
     /* margin-bottom: 20px; */
 
 }
 
+#paymentimg{
+    margin-top: 20px;
+}
+
 .support{
     width: 60%;
     margin-top: 150px;
-
 }
+/* 
+.paytext{
+    margin-bottom: 40px;
+} */
 
 .return{
     width: 50%;
@@ -33,6 +41,10 @@
 .categries{
     text-align: center;
 }
+
+/* #arrowdown{
+    margin-top: 200px;
+} */
 
 /* .container {
     position: relative;

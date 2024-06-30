@@ -2,7 +2,7 @@ import Support from '../Images/customersupport.png';
 import Return from '../Images/return.png';
 import payment from '../Images/payment.jpeg';
 import Lorry from '../Images/delivery.png';
-// import { Services } from '../Navbar';
+// import { FaArrowDown } from 'react-icons/fa';
 import './index.css';
 
 export function Categories(){
@@ -37,13 +37,18 @@ return (
     </div>
     
     <div>
-    <img src={payment} alt='' className='payment'/>
+    <img src={payment} alt='' id='paymentimg'/>
+    <div className='payment'>
     <h4>SECURE PAYMENT</h4>
     <p>100% Secure Payment</p>
+    </div>
+   
     </div>
     </div>
     
     <Categories/>
+
+   
     </div>
 
 )

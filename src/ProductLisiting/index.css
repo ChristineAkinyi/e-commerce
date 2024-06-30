@@ -1,0 +1,27 @@
+.listings-container {
+    margin: 2rem 0;
+  }
+  
+  .additional-products-section {
+    padding: 2rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .additional-products-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .additional-products-grid img{
+    width: 200px;
+  }
+
+  #populer{
+    text-align: center;
+  }
+  
+  /* You can add more specific styles here if needed */
